@@ -1,4 +1,4 @@
-# Machine-Learning-Kit---Convert-Image-to-Photo
+# Machine-Learning-Kit---Convert-Image-to-Text
 # Material Theme Builder Android Export
 
 ## Basics
