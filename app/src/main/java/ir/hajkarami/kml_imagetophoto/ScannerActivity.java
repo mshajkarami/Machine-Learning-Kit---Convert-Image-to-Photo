@@ -108,38 +108,6 @@ public class ScannerActivity extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(), "Failed to detect text: " + e.getMessage(), Toast.LENGTH_SHORT).show();
                 });
     }
-//    private void detectText() {
-//        if (imageBitmap == null) {
-//            Toast.makeText(ScannerActivity.this, "Please capture an image first!", Toast.LENGTH_SHORT).show();
-//            return;
-//        }
-//
-//        TextRecognizer recognizer = TextRecognition.getClient(TextRecognizerOptions.DEFAULT_OPTIONS);
-//
-//        recognizer.downloadModelIfNeeded()
-//                .addOnSuccessListener(unused -> {
-//                    InputImage image = InputImage.fromBitmap(imageBitmap, 0);
-//
-//                    recognizer.process(image)
-//                            .addOnSuccessListener(text -> {
-//                                StringBuilder resultText = new StringBuilder();
-//                                for (Text.TextBlock block : text.getTextBlocks()) {
-//                                    resultText.append(block.getText()).append("\n");
-//                                }
-//                                resultTV.setText(resultText.toString());
-//                            })
-//                            .addOnFailureListener(e -> {
-//                                Log.e("MLKitError", "Text detection failed", e);
-//                                Toast.makeText(getApplicationContext(), "Failed to detect text: " + e.getMessage(), Toast.LENGTH_SHORT).show();
-//                            });
-//                })
-//                .addOnFailureListener(e -> {
-//                    Log.e("MLKitError", "Model download failed", e);
-//                    Toast.makeText(ScannerActivity.this, "Failed to download text recognition model: " + e.getMessage(), Toast.LENGTH_SHORT).show();
-//                });
-//    }
-
-
     @Override
     public void onRequestPermissionsResult(
             int requestCode,
