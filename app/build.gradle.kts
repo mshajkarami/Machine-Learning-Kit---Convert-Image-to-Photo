@@ -44,4 +44,7 @@ dependencies {
     // Import the firebase
     implementation(platform("com.google.firebase:firebase-bom:33.12.0"))
     implementation("com.google.firebase:firebase-analytics")
+    // Add google ml kit
+    implementation("com.google.firebase:firebase-ml-vision:24.0.3")
+
 }
