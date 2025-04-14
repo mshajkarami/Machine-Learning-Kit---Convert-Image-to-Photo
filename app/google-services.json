@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "633198669755",
+    "project_id": "imagetophoto",
+    "storage_bucket": "imagetophoto.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:633198669755:android:d501ee6c05ca06026f9e9e",
+        "android_client_info": {
+          "package_name": "ir.hajkarami.kml_imagetophoto"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzqbfVUAGaWhSkO0_lYuhXQC6-2f_XxhM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
